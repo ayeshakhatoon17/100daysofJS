@@ -22,7 +22,7 @@ ethod 1: When you have already code
 1. Make sure u have a folder and  files in your code 
 2. Empty Folder will not upload  github
 3. Go to github.com create a new repo with name and copy ssh
-4. cd yourfolder
+4. cd reponame
 5. ls -a -> to check hidden files and if there is no  .git folder
 6. git init ->it will create .git folder 
 7. one repo will have only 1 .git hidden folder so initialize only 1 time
