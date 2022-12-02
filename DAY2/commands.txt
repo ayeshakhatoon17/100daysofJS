@@ -1,0 +1,24 @@
+
+
+*** Linux imp  commands ***
+ 
+1.mkdir -> to create a directory/folder
+2.cd foldername -> to go inside the folder/directory
+3.touch filename -> to crreate a file
+4.nano filename -> to write inside file 
+5.cat filename -> to display content of file in terminal
+6.cd -> to go home 
+7.ls -> to show how many files you have created
+8.ls -a -> to show all hidden files too
+9.rm -rm filename -> to delete file
+10.rmdir -> to remove directory
+11.mv oldfilename newfilename -> to change filename
+12.pwd -> shows the path you are in 
+13. git branch -> shows which branch you are in
+14. git branch ayesha -> creates a new branch named ayesha
+15. git switch ayesha -> switches from main branch to ayesha branch
+16. git branch -D ayesha -> deletes the branch named ayesha
+17. cd .. -> to go back 
+18. git clone ssh url -> clones the terminal with your repository 
+19. git init -> intializes a git repository, creates .git file
+

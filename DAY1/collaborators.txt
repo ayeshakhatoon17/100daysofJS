@@ -1,0 +1,39 @@
+
+*** Working With Collaborators ***
+
+
+// Admin
+1. go to github.com create a new repo
+2. go to settings > collaborators > invite people
+3. Add branch rule so that people won't directly push into your master branch
+
+
+//collaborator
+1. git clone reponame 
+2. cd reponame
+3. git branch 
+4. git branch  ayesha
+5. git switch ayesha
+6. touch 1.txt
+7. git add .
+8. git commit -m "msg"
+9. git push origin ayesha
+10. Click the link openouch
+11. Write Msg to accept branch to repo owner
+12 .Click on Pull Create Pull Request
+
+
+// Admin
+
+1. Go to repo
+2. go to pull req
+3. click on the pr 
+4. open click on merger to master
+5. optional delete branch 
+
+
+// Temrinal
+
+1. git switch master
+2. git branch -D ayesha
+3. git pull origin master

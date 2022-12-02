@@ -1,0 +1,18 @@
+
+*** how to upload a file in git ***
+
+ 1. go to github.com make a new repository
+ 2. copy the ssh code
+ 3. go to your terminal
+     git clone ssh code -> to clone your terminal with repository 
+ 4. cd reponame -> to go inside the repo and to create files or folders
+ 5. mkdir foldername -> to create a directory/folder
+ 6. touch filename  -> to create a new file 
+ 7. nano filename  -> to write a content in file
+ 8. ctrl +O  -> to save the file content, ctrl + x  -> to exit the file
+ 9. cat filename -> to see the content of file in terminal
+ 10. To push file in cloud
+            i.   git add .
+            ii.  git commit -m "description of what you're adding"
+            iii. git push origin master -> the file will be pushed to your cloud 
+ 
