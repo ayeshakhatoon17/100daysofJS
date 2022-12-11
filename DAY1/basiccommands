@@ -1,3 +1,24 @@
 
 date -> shows date and time
 cal -> opens calendar
+whoami -> will tell you which user account you are using
+id -> prints real user id and various details related to account
+pwd -> print working directory, shows the path of current directory
+cd -> change directory
+.. -> parent directory
+.  -> current directory
+ls -> to list files and directories
+mkdir -> creates new directory
+rm -> used to remove file/directory
+cp oldfile newfilelocation -> to cpy a file into new file
+mv oldfile newfile -> to reaname new file
+tree -> prints the directory structure
+wc -> word count used to count lines words and bytes of afile
+ ls / -> is the root directory of your file system
+ls -l -> to find the owner, group of a file or a directory
+cat /etc/passwd -> shows all the users available in system
+/etc/group -> group details are stored inside 
+sudo passwd username -> helps to change password
+userdel -> command ti delete a user from the system
+usermod -> command can help to modify an existing user
+userdel -> command to delete a user from system 

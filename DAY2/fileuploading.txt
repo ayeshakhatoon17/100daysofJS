@@ -17,7 +17,7 @@
 
 method 2 
 
-ethod 1: When you have already code 
+method 1: When you have already code 
 
 1. Make sure u have a folder and  files in your code 
 2. Empty Folder will not upload  github
@@ -25,9 +25,9 @@ ethod 1: When you have already code
 4. cd reponame
 5. ls -a -> to check hidden files and if there is no  .git folder
 6. git init ->it will create .git folder 
-7. one repo will have only 1 .git hidden folder so initialize only 1 time
-8. git remote add origin ssh-url
-9. git remote -v
-10.git add .
-11. git commit -m "msg"
-12. git push origin master/main
+  6.1 one repo will have only 1 .git hidden folder so initialize only 1 time
+7. git remote add origin ssh-url
+8. git remote -v
+9.git add .
+10. git commit -m "msg"
+11. git push origin master/main
