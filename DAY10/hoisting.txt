@@ -1,0 +1,42 @@
+// Hoisting is used in functions it means we can call the function  anywhere without an order.
+//we can call before the declaration of function or after the declaration yet it produces same result
+// hoisting can be done only in functions
+
+
+ ex: // in this case we have called function after declaration
+     function isEven(num){
+        if (num % 2 == 0){
+
+            console.log(`number is even ${num}`)
+          }
+        else{
+            console.log(`number is odd ${num}`) 
+            }
+       }
+         isEven(9)
+
+ ex2:
+     isEven(9)  //here we called the function first then down we have declared
+     
+     function isEven(num){
+        if (num % 2 == 0){
+
+            console.log(`number is even ${num}`)
+          }
+        else{
+            console.log(`number is odd ${num}`) 
+            }
+       }
+    
+
+    // Return
+     The return statement stops the execution of a function and returns a value.
+     after return  statement , it dosen't consider the remaining part
+
+     ex:
+        function myFunction(a, b) {
+        // Return the product of a and b
+        return a * b;
+        console.log("i won't be considered")// this part dosen't considered coz return statement has given above
+          }
+        
