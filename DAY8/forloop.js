@@ -2,7 +2,7 @@
 loops are two types entry controlled, exit controlled
                             |                 |
                         for, while         do while
-for loop is known as entry controlled loop which means it checks the condition first then executed */
+for loop is known as entry controlled loop which means it checks the condition first then gets executed */
 
 // syntax for forloop is : 
 /* for (initializationStatement; testExpression; updateStatement)
