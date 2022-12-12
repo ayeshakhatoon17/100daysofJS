@@ -1,4 +1,4 @@
-//function is a block of code where you cam=n perform specific task
+//function is a block of code where you can perform specific task
 // function is also keyword
 //functions are two types 1. built -in,2. user defined
 
@@ -64,5 +64,9 @@
     // calling function tablegenerator 
 
     tablegenerator(2, 10) 
+
+   // calling function isEven
+    
+   isEven(10)
 
     
