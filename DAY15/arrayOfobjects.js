@@ -1,27 +1,27 @@
-const user = [
-    {
+const user = [//creating an array
+    { //1 creating objects inside an array 
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
       "email": "Sincere@april.biz",
-      "address": {
+      "address": { // 1.1 creating obj inside the 1st object
         "street": "Kulas Light",
         "suite": "Apt. 556",
         "city": "Gwenborough",
         "zipcode": "92998-3874",
-        "geo": {
+        "geo": { // 1.1.1 creating  obj inside 1.1 obj
           "lat": "-37.3159",
           "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
+        }//closing obj 1.1.1
+      },//closing obj 1.1 
+      "phone": "1-770-736-8031 x56442", //writing data inside 1st obj 
       "website": "hildegard.org",
-      "company": {
+      "company": { //1.2 creating obj inside 1st obj 
         "name": "Romaguera-Crona",
         "catchPhrase": "Multi-layered client-server neural-net",
         "bs": "harness real-time e-markets"
-      }
-    },
+      } .// clsoing 1.2
+    },// closing 1
     {
       "id": 2,
       "name": "Ervin Howell",
