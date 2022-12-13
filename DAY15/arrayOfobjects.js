@@ -16,12 +16,12 @@ const user = [//creating an array
       },//closing obj 1.1 
       "phone": "1-770-736-8031 x56442", //writing data inside 1st obj 
       "website": "hildegard.org",
-      "company": { //1.2 creating obj inside 1st obj 
+      "company": { // 1.2 creating obj inside 1st obj 
         "name": "Romaguera-Crona",
         "catchPhrase": "Multi-layered client-server neural-net",
         "bs": "harness real-time e-markets"
-      } .// clsoing 1.2
-    },// closing 1
+      } //closing 1.2 obj
+    }, //closing 1 obj
     {
       "id": 2,
       "name": "Ervin Howell",
