@@ -29,8 +29,8 @@ console.log(personDetails);
 // Deleting an element from an array 
 
 // 1.From Last - we use pop
-// 2.From First - 
+// 2.From First - we use shift
 
-// Adding Arrays 
-// 1.At First
-// 2.At Last 
+// Adding element to an array
+// 1.At First - Unshift
+// 2.At Last  - push
