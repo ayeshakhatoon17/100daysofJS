@@ -1,0 +1,22 @@
+
+Exception Handling - exception handling is a process or method used for handling the abnormal statements in the code and executing them. 
+Any error is an exception 
+
+Type of Errors
+ Syntax Error: When a user makes a mistake in the pre-defined syntax of a programming language, a syntax error may appear.
+Runtime Error: When an error occurs during the execution of the program, such an error is known as Runtime error. 
+               The codes which create runtime errors are known as Exceptions. Thus, exception handlers are used for handling runtime errors.
+Logical Error: An error which occurs when there is any logical mistake in the program that may not produce the desired output,
+               and may terminate abnormally. Such an error is known as Logical error.
+
+
+There are following statements that handle if any exception occurs:
+1.try  catch  staements
+2.try  catch finally statements
+3.throw statements
+
+ 
+               
+
+
+  
