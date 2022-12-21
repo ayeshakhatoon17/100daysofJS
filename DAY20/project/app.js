@@ -7,7 +7,7 @@ function main(){
 const red = color.xterm(10);
 const blue = color.xterm(153)
 const white = color.xterm(15);
-const yellow = color.xterm(227).bgXterm(189);;
+const yellow = color.xterm(227).bgXterm(189); //bgXterm - background color , xterm - font color
 
 
 console.clear()
@@ -19,7 +19,7 @@ let costOfButterchicken = (180 + 180 * gst);
 let costOfChicken65 = (150 + 150 * gst);
 
 
-console.log(yellow("WELCOME!!"))//printing welcome in yellow color
+console.log(yellow("WELCOME!!"))//printing WELCOME!! in yellow color
 console.log("------------")
 console.log(blue("Here is our Menu-"))
 console.log("------------")
