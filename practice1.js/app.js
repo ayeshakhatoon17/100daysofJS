@@ -12,9 +12,22 @@ for(let i =0; i<a.length;i++){
 console.log(copyItems) //3. printing ascii values in an array
 
 
+//4. converting into binary code and pushing in array
+const array =[];
 for (let j=0; j<copyItems.length;j++){
-console.log((copyItems).toString(2))
+array.push((copyItems[j]).toString(2))
 }
+console.log(array)
+
+//5. converting it into 8 bit
+for(let k=0; k<array.length;k++){
+array[k]= array[k].toString(2).padStart(8,"0")
+}
+console.log(array)
+
+//6. splitting binary into 6 bits
+
+console.log("6 bits",array.split("6"))
 
 
 
@@ -22,16 +35,6 @@ console.log((copyItems).toString(2))
 
 
 
-
-
-
-
-
-
-//3. converting into binary codes
-
-/* const result = ascii().toString(2)
-console.log("binary" + "" + result)  */
 
 }
 
