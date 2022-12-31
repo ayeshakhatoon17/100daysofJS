@@ -22,3 +22,5 @@
 18. git clone ssh url -> clones the terminal with your repository 
 19. git init -> intializes a git repository, creates .git file
 
+*****
+
