@@ -43,11 +43,10 @@
     
    /*  Name generator
      function nameGen(firstname,lastname){
-        console.log("my first name is ${firstname}")
-        console.log("my lastname  is ${lastname}")
-
-    }
-       nameGen(ayesha,khatoon)  */
+       console.log(`my first name is ${firstname}`)
+    console.log(`my lastname  is ${lastname}`)
+}
+   nameGen("ayesha","khatoon")  */
     // function to find if anumber is even or odd
     function isEven(num){
         if (num % 2 == 0){
